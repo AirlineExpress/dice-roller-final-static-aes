@@ -1,0 +1,21 @@
+body {
+    background-color: #add8e6;
+    font-family: Arial, sans-serif;
+}
+
+/* This styles everything inside */
+.container {
+    background-color: #faebd7;
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px;
+    width: 60%;
+    text-align: center;
+}
+
+/* This styles the input items which is what shows the dice output*/
+input {
+    text-align: right;
+    height: 25px;
+    width: 25px;
+}

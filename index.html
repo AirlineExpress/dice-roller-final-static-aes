@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+    Author: Samuel Swedo
+    Project: Web Dice Roller
+    Description: A website that rolls a dice for the game yahtzee
+-->
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Dice Roller</title>
+        <link rel="stylesheet" href="web-dice-roller.css">
+        <script src="web-dice-roller-script.js"></script>
+    </head>
+
+    <!-- This causes the dice to automatically roll on web launching-->
+    <body onload="diceRoller()">
+        <div class="container">
+
+            <!-- Dice Rolling part of the website -->
+            <section class="dice-roller">
+
+                <h1>Dice Roller For <a href="https://en.wikipedia.org/wiki/Yahtzee" target="_blank">Yahtzee</a>!</h1>
+                <p>To roll the dice, press the Roll button below! It will display the results of 5 dice!</p>
+
+                <!-- This displays the text to show the dice number-->
+                <input id="dice1" readonly>
+                <input id="dice2" readonly>
+                <input id="dice3" readonly>
+                <input id="dice4" readonly>
+                <input id="dice5" readonly>
+                <br><br>
+
+                <!-- The button that will roll the dice -->
+                 <button id="btn-roll" onclick="diceRoller()" autofocus>Roll</button>
+
+            </section>
+        </div>
+    </body>
+</html>
